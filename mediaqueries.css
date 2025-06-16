@@ -1,0 +1,40 @@
+@media all and (max-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+@media all and (max-width: 600px){
+   #photos{
+    display: none;
+   }
+}
+@media all and (min-width: 601px) and (max-width: 1200px) {
+  body {
+    background-color: white;
+  }
+}
+@media all and (min-width: 1201px) {
+  body {
+    background-color: white;
+
+  }
+}
+@media all and (min-width: 1201px) {
+  #carousel{
+    height:fit-content;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.home{
+  margin-top: 1000px;
+  padding:50px;
+}
